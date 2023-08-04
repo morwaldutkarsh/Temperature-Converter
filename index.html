@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+</head>
+<body>
+    <h1 id="heading">Temperature Converter</h1>
+    <div id="container">
+        <div id="calculator">
+            <div id="it">
+                <form id="form">
+                    <select id="inputtemp">
+                        <option disabled selected value="0">-- Choose Temperature --</option>
+                        <option value="1">Degree celsius (°C)</option>
+                        <option value="2">Kelvin  (K)</option>
+                        <option value="3">Degree Fahrenheit (°F)</option>
+                    </select>
+                    <br>
+                    <input id="temperature" type="text" placeholder="How much the temperature ?">
+                </form>
+            </div>
+            <div id="it">
+                <form id="form">
+                    <select id="outtemp">
+                        <option disabled selected value="0">-- Choose Temperature --</option>
+                        <option value="1">Degree celsius (°C)</option>
+                        <option value="2">Kelvin  (K)</option>
+                        <option value="3">Degree Fahrenheit (°F)</option>
+                    </select>
+                    <br>
+                    <div id="finaltemp">
+                        <div id="temmp">
+                            <span id="temp">0.00</span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <button type="button" id="calculate">Calculate!</button>
+    </div>       
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
